@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.App {
+    /* background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%); */
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    min-height: 100vh;
+    background-position: bottom;
+    background-size: cover; 
+    transition: 0.4s ease-out;  
+    padding: 15px 70px;
+    color: white; 
+}
+
+main {
+    padding: 25px;
+}
+.dark-mode {
+    background-image: linear-gradient(to top, #243949 0%, #517fa4 100%);
+    color: white;
+}
+.light-mode {
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+    color: #333;
+}
+.search-bar {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    width: 50%;
+    margin-bottom: 20px;
+} 
+
+/* Style for your new toggle button */
+.toggle-btn {
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid blue;
+    background: transparent;
+    color: inherit;
+} 
