@@ -44,24 +44,6 @@ main {
   color: #f0f0f0;
 }
 
-.dark-mode h1,
-.dark-mode h2 {
-  color: #f0f0f0;
-}
-
-.dark-mode .grid-item {
-  background: #3a3a52;
-}
-
-.dark-mode .label {
-  color: #b0b0b0;
-}
-
-.dark-mode .value,
-.dark-mode .temp,
-.dark-mode .description {
-  color: #f0f0f0;
-}
 
 h1 {
   color: #333;
@@ -102,11 +84,6 @@ button {
 
 button:hover {
   background-color: #2679cd;
-}
-
-.mode-toggle {
-  margin-top: 15px;
-  background-color: #666;
 }
 
 .mode-toggle:hover {
